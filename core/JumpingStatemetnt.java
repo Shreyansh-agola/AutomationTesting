@@ -1,0 +1,32 @@
+package com.core;
+
+public class JumpingStatemetnt {
+	public static void main(String[] args) {
+		int i;
+		
+		for(i=0;i<10;i++)
+		{
+			if(i==5)
+			{
+				continue;
+				/*
+				 * continue pan break jevu che 
+				 * task for(i=0;i<10;i++)
+		           {
+			           if(i==5 || i==8)
+			       {
+				        continue;
+				*/
+			}
+			if(i==7)
+			{
+				break;
+			}
+			else 
+			{
+				System.out.println("I :"+i);
+			}
+		}
+	}
+
+}
